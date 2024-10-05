@@ -34,8 +34,8 @@ Review and compare the segmented images from each thresholding method to evaluat
 
 ## Program
 ```
-Developed By: Ashwin Akash M
-Reference Number: 212223230024
+Developed By: VAISHNAV NANDA
+Reference Number: 212222240112
 ```
 # Load the necessary packages
 ```
@@ -52,7 +52,8 @@ plt.title('Grayscale Image')
 plt.xticks([]), plt.yticks([])
 plt.show()
 ```
-![alt text](image.png)
+![fish_gray](https://github.com/user-attachments/assets/83a6d366-c814-4419-b31f-9d1c8b30c1a4)
+
 # Use Global thresholding to segment the image
 ```
 ret_global, th_global = cv2.threshold(gray_image, 127, 255, cv2.THRESH_BINARY)
@@ -61,7 +62,8 @@ plt.title('Global Thresholding (v=127)')
 plt.xticks([]), plt.yticks([])
 plt.show()
 ```
-![alt text](image-1.png)
+![image1](https://github.com/user-attachments/assets/3d7ffafe-0043-457a-8e13-687e9151e32a)
+
 
 # Use Adaptive thresholding to segment the image
 ```
@@ -71,7 +73,8 @@ plt.title('Adaptive Gaussian Thresholding')
 plt.xticks([]), plt.yticks([])
 plt.show()
 ```
-![alt text](image-2.png)
+
+![image2](https://github.com/user-attachments/assets/35b35e0e-18d5-4b95-a6a5-c16b859d57d8)
 
 # Use Otsu's method to segment the image 
 ```
@@ -81,7 +84,8 @@ plt.title("Otsu's Thresholding")
 plt.xticks([]), plt.yticks([])
 plt.show()
 ```
-![alt text](image-3.png)
+![image3](https://github.com/user-attachments/assets/bc10c178-e590-4f67-bc4d-4255c9305fc4)
+
 
 ## Result
 Thus the images are segmented using global thresholding, adaptive thresholding and optimum global thresholding using python and OpenCV.
