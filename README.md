@@ -62,7 +62,8 @@ plt.title('Global Thresholding (v=127)')
 plt.xticks([]), plt.yticks([])
 plt.show()
 ```
-![image1](https://github.com/user-attachments/assets/3d7ffafe-0043-457a-8e13-687e9151e32a)
+
+![image1](https://github.com/user-attachments/assets/1cfdff43-3251-4848-b6a8-996ec5fc7e44)
 
 
 # Use Adaptive thresholding to segment the image
